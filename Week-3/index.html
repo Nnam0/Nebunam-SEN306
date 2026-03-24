@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>falcon_ōkami // SEN306</title>
+    <style>
+        :root {
+            --neon-blue: #00d4ff;
+            --bg-dark: #0a0b10;
+            --text-gray: #a0a0c0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            border: 1px solid var(--neon-blue);
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+            background: rgba(10, 11, 16, 0.8);
+            max-width: 600px;
+            position: relative;
+        }
+
+        h1 {
+            color: var(--neon-blue);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            border-right: 2px solid var(--neon-blue);
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 3s steps(30, end), blink .5s step-end infinite;
+        }
+
+        .stat-box {
+            margin: 20px 0;
+            font-size: 0.9rem;
+            color: var(--text-gray);
+        }
+
+        .highlight { color: var(--neon-blue); font-weight: bold; }
+
+        .btn {
+            background: transparent;
+            border: 1px solid var(--neon-blue);
+            color: var(--neon-blue);
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: var(--neon-blue);
+            color: var(--bg-dark);
+            box-shadow: 0 0 15px var(--neon-blue);
+        }
+
+        @keyframes typing { from { width: 0 } to { width: 100% } }
+        @keyframes blink { from, to { border-color: transparent } 50% { border-color: var(--neon-blue) } }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>> INITIALIZING_SEN306_CONSTRUCTION...</h1>
+        
+        <div class="stat-box">
+            <p>USER: <span class="highlight">falcon_ōkami</span></p>
+            <p>MANAS: <span class="highlight">Ciel</span></p>
+            <p>SECTOR: <span class="highlight">Software Construction (SEN306)</span></p>
+            <p>INTELLECT_QUOTIENT: <span class="highlight">115</span></p>
+            <p>ACTIVE_SKILLS: [Flare King Amaterasu, Tyrannous King Susanoo, Void god Azathoth, Extinction King Abaddon, Justice King Michael]</p>
+        </div>
+
+        <hr style="border: 0.5px solid #222;">
+
+        <p style="color: #666; font-size: 0.8rem;">
+            "Whether it's an Ultimate Skill or a well-crafted API, 
+            construction is the bridge between imagination and reality."
+        </p>
+
+        <a href="https://github.com/Nnam0/Nebunam-SEN306" class="btn">ACCESS REPOSITORY</a>
+    </div>
+
+</body>
+</html>
